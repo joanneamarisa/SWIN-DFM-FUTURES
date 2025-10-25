@@ -1,2 +1,6 @@
-# SWIN-DFM-FUTURES
-Applied Innovation Semester 2 2025 Class: Futures Studio. Joanne Amarisa. Speculative Student Sociocognitive Interactive Dashboard.
+# Stage 2: Future Innovation Artefact
+### Design Factory Melbourne Applied Innovation Studio
+### Swinburnne University of Technology
+
+Created by: Joanne Amarisa. 
+Project Title: Speculative Student Sociocognitive Interactive Dashboard.
