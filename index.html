@@ -15,7 +15,74 @@
   </head>
 
   <body>
-    <div class="name-tag">Sarah Chen</div>
+    <main id="canvas-container"></main>
+    
+    <!-- Dashboard Overlay -->
+    <div class="dashboard-overlay">
+      
+      <!-- Top Left Title -->
+      <div class="app-title">Your Sociocognitive Dashboard</div>
+      
+      <!-- Bottom Left: Name and Message -->
+      <div class="name-section">
+        <h1 class="name">Sarah<br>Chen</h1>
+        <p class="message">Good morning, Sarah. You must find ways to improve your cognitive independence today.</p>
+      </div>
+      
+      <!-- Center: SCQ Score -->
+      <div class="scq-section">
+        <div class="scq-score">193</div>
+        <div class="scq-label">SCQ</div>
+        <div class="time-selector">
+          <select class="time-dropdown">
+            <option value="term" selected>THIS TERM</option>
+            <option value="year">THIS YEAR</option>
+            <option value="week">THIS WEEK</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- Performance Cards -->
+      <div class="performance-cards">
+        <div class="card improved">
+          <div class="card-header">MOST IMPROVED</div>
+          <div class="card-percentage">42<span class="percent">%</span> <span class="arrow">↑</span></div>
+          <div class="card-label">INTERPERSONAL<br>RELATIONSHIPS</div>
+        </div>
+        
+        <div class="card declined">
+          <div class="card-header">NEEDS ATTENTION</div>
+          <div class="card-percentage">15<span class="percent">%</span> <span class="arrow">↓</span></div>
+          <div class="card-label">IDEATION AND<br>INNOVATION</div>
+        </div>
+      </div>
+      
+      <!-- Right Bottom Panels -->
+      <div class="right-panels">
+        
+        <!-- Today's Queries -->
+        <div class="panel queries">
+          <div class="panel-title">TODAY'S<br>QUERIES</div>
+          <div class="query-list">
+            <div class="query-item">What do I do in a cybersecurity breach?</div>
+            <div class="query-item">Simulate a cyber-attack in government</div>
+            <div class="query-item">Translate Python code into Rust</div>
+          </div>
+        </div>
+        
+        <!-- Query Quality -->
+        <div class="panel quality">
+          <div class="panel-title">QUERY<br>QUALITY</div>
+          <div class="quality-list">
+            <div class="quality-item">Able to apply cybersecurity strategies to government sectors</div>
+            <div class="quality-item">Repetition of questions around governance laws for cybersecurity</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
     <script src="sketch.js"></script>
-  </body>
+  </body>  
+  
 </html>
