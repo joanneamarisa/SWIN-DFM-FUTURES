@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.name-tag {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  text-align: left;
+  line-height: 85%;
+  font-family: Helvetica Neue;
+  font-size: 75px;
+  font-weight: 100;
+  padding: 10px 15px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
