@@ -18,17 +18,17 @@ function preload() {
   handPose = ml5.handPose({ flipped: true });
   faceMesh = ml5.faceMesh({ flipped: true }); // Add faceMesh
   
-  img = loadImage('assets/interface-mockup.png');
-  graph1 = loadImage('assets/SQ-0.png');
-  graph2 = loadImage('assets/CQ-0.png');
+  img = loadImage('interface-mockup.png');
+  graph1 = loadImage('SQ-0.png');
+  graph2 = loadImage('CQ-0.png');
   
   // Load graph images
   for (let i = 0; i < 5; i++) {
-    let sqImg = loadImage('assets/SQ-' + (i + 1) + '.png');
+    let sqImg = loadImage('SQ-' + (i + 1) + '.png');
     sq.push(sqImg);
   }
   for (let i = 0; i < 5; i++) {
-    let cqImg = loadImage('assets/CQ-' + (i + 1) + '.png');
+    let cqImg = loadImage('CQ-' + (i + 1) + '.png');
     cq.push(cqImg);
   }
   
